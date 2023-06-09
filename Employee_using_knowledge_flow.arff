@@ -1,81 +1,22 @@
-tions.
-
- 14 changes: 14 additions & 0 deletions14  
-
-Employee.arff
-
-@@ -0,0 +1,14 @@
-
 @relation employee
-
-@attribute name {x,y,z,a,b}
-
-@attribute id numeric
-
-@attribute salary {low,medium,high}
-
-@attribute exp numeric
-
-@attribute gender {male,female}
-
-@attribute phone numeric
-
-@data
-
-x,101,low,2,male,250311
-
-y,102,high,3,female,251665
-
-z,103,medium,1,male,240238
-
-a,104,low,5,female,200200
-
-b,105,high,2,male,240240
-
- 22 changes: 22 additions & 0 deletions22  
-
-Employee_using_knowledge_flow.arff
-
-@@ -0,0 +1,22 @@
-
-@relation employee
-
 @attribute eid numeric
-
 @attribute ename {raj,ramu,anil,sunil,rajiv,sunitha,kavitha,suresh,ravi,ramana,ram,kavya,navya,balaji}
-
 @attribute salary numeric
-
 @attribute exp numeric
-
 @attribute address {pdtr,kdp,nlr,gnt,glt}
 
 @data
-
 101,raj,10000,4,pdtr
-
 102,ramu,15000,5,pdtr
-
 103,anil,12000,3,kdp
-
 104,sunil,13000,3,kdp
-
 105,rajiv,16000,6,kdp
-
 106,sunitha,15000,5,nlr
-
 107,kavitha,12000,3,nlr
-
 108,suresh,11000,5,gnt
-
 109,ravi,12000,3,gnt
-
 110,ramana,11000,5,gnt
-
 111,ram,12000,3,kdp
-
 112,kavya,13000,4,kdp
-
 113,navya,14000,5,kdp
-
 666,balaji,50000,6,gtl
